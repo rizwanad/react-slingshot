@@ -21,3 +21,5 @@ Jobs:
   analyze:
     <<: *defaults
 workflows:
+  ssw:
+    - build
