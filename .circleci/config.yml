@@ -22,4 +22,5 @@ Jobs:
     <<: *defaults
 workflows:
   ssw:
-    - build
+    jobs:
+      - build
